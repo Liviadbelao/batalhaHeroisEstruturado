@@ -1,4 +1,4 @@
-const pool = require('../config/dbConfig');
+const pool = require('../config/dbConfig.js');
 
 async function todosHerois(req, body) {
     try {
